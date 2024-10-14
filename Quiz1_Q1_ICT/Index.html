@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q1 Quiz#2</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      text-align: center;
+      background: rgb(144,186,149);
+      background: linear-gradient(90deg, rgba(144,186,149,1) 31%, rgba(76,136,71,1) 88%);
+      font-family: "Playwrite DE Grund", cursive;
+      padding: 30px;
+      text-align: center;
+    }
+    .header {
+      color: #16423C;
+      font-family: "Playwrite DE Grund", cursive;
+      background-color: #CBD5C0;
+      padding: 30px;
+      text-align: center;
+    }
+    h2 {
+      color: #16423C;
+      margin-bottom: 20px;
+    }
+    .paragraph {
+      margin: 10%;
+      color: #16423C;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    
+    .charpics {
+      display: block;
+      margin: 0 auto;
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 35px;
+      border: 2px solid black;
+    }
+
+    .poster {
+      text-align: center; 
+    }
+
+    .poster img {
+      width: 500px;
+      height: 575px;
+      border: 2px solid #16423C; 
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px; 
+      justify-items: center; 
+      align-items: center; 
+      padding: 20px;
+      background-color: #9CAF88;
+      border: 5px solid #16423C; 
+      margin: 20px auto;
+      width: 80%; 
+    }
+
+    .griditem {
+      text-align: center;
+      border-radius: 10px; 
+    }
+
+    .griditem img {
+      width: 200px; 
+      height: 250px;
+      object-fit: cover; 
+      border-radius: 10px; 
+      border: 2px solid #16423C;
+    }
+    
+    .comment {
+      background-color: #DFE6DA ;
+    border-width: 5px;
+    border-color: #758467
+    }
+    a {
+      display: block;
+      color: #E9EFEC;
+      text-decoration: none;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    a:hover {
+      color: #FFFFFF;
+    }
+
+    footer {
+      margin-top: 20px;
+      color: #16423C;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Shrek!!!</h1>
+  </div>
+
+  <hr>
+
+  <div class="poster">
+    <img src="https://image.tmdb.org/t/p/original/c9fEydIUZ3mnLI7yeUYC7dZ866M.jpg" alt="Shrek Poster" width="500" height="575">
+  </div>
+
+  <div class="paragraph">
+    <p>Shrek's, an ogre, peaceful life is disrupted when a group of fairy tale creatures, banished from the kingdom of Duloc by Lord Farquaad, invade his swamp. In order to get his home back, Shrek agrees to rescue Princess Fiona from a distant tower as per agreed with Farquaad, who wants to marry her to become king. Along the way, Shrek is joined by a talking donkey. He eventually falls in love with Fiona, only to discover that she has a secret curse that turns her into an ogre every night. The story culminates with Shrek confessing his love, Fiona remaining in her ogre form forever, and the two living happily ever after.</p>
+  </div>
+
+  <h2>Main Characters</h2>
+
+  <div class="grid-container">
+    <div class="griditem">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.1d26QnjhuBEDvflABbPSJAHaEK&pid=Api" alt="Shrek">
+      <a href="https://shrek.fandom.com/wiki/Shrek_(character)" target="_blank">Shrek</a>
+    </div>
+    <div class="griditem">
+      <img src="http://prod-upp-image-read.ft.com/c963f918-05a5-11e7-aa5b-6bb07f5c8e12" alt="Donkey">
+      <a href="https://shrek.fandom.com/wiki/Donkey" target="_blank">Donkey</a>
+    </div>
+    <div class="griditem">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.l2nXNLBHqGHeb0r_z9goBgHaFj&pid=Api" alt="Princess Fiona">
+      <a href="https://shrek.fandom.com/wiki/Fiona" target="_blank">Princess Fiona</a>
+    </div>
+    <div class="griditem">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.RApsuV7lcU7ouutoZWJ72QHaEK&pid=Api" alt="Lord Farquaad">
+      <a href="https://shrek.fandom.com/wiki/Lord_Farquaad" target="_blank">Lord Farquaad</a>
+    </div>
+    <div class="griditem">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.ucaH8zFOWoL7o9uNYsFz0wAAAA&pid=Api" alt="Dragon">
+      <a href="https://shrek.fandom.com/wiki/Dragon?file=Dragon_Forever_After_transparent.png" target="_blank">Dragon</a>
+    </div>
+  </div>
+<fieldset class="comment">
+    <legend>comments</legend>
+<br />
+    <label for="Comment">questions?</label>
+      <br />
+    <input type="text" size="100" name="comment" placeholder="Comment.." rows="10" cols="50">
+    <br />
+      <input type="submit" value="go!">
+</fieldset>
+
+  <footer>Submitted by Mergal Manuel Jacinto, 9-S</footer>
+</body>
+</html>
